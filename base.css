@@ -3,19 +3,19 @@
 *,
 *:before,
 *:after {
-	-webkit-box-sizing:inherit;
-	box-sizing:inherit;
+  -webkit-box-sizing:inherit;
+  box-sizing:inherit;
 }
 html,
 body {
-	min-height:100%;
+  min-height:100%;
 }
 html {
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
 }
 body {
-	background-color:#cdcdcd;
-	font-family:Verdana;
-	margin:0;
+  background-color:#cdcdcd;
+  font-family:Verdana;
+  margin:0;
 }
