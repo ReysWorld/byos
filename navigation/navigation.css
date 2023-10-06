@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.byos-nav *,
+.byos-nav *:before,
+.byos-nav *:after {
+  box-sizing:inherit;
+}
 .byos-nav {
   width:100%;
   height:50px;
@@ -11,6 +16,7 @@
   align-items:center;
   padding:0 15px;
   z-index:1000;
+  box-sizing:border-box;
 }
 .byos-nav-input {
   display:none;
