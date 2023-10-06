@@ -1,3 +1,5 @@
+[![Deploy to Pages](https://github.com/ReysWorld/byos/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/ReysWorld/byos/actions/workflows/static.yml)
+
 # BYOS - Build Your Own Site
 BYOS is a collection of small and simple modules to include in your website.
 
