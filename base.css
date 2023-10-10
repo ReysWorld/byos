@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+:root {
+  --byos-bg-circle-color:lightsteelblue;
+  --byos-bg-circle-size:1px;
+  --byos-bg-circle-spacing:40px;
+  --byos-bg-color:whitesmoke;
+  --byos-font-family:Verdana;
+  --byos-font-size:12px;
+}
+
 *,
 *:before,
 *:after {
@@ -9,7 +18,10 @@ html {
   box-sizing:border-box;
 }
 body {
-  background-color:#cdcdcd;
-  font-family:Verdana;
-  font-size:12px;
+  background-color:var(--byos-bg-color);
+  background-image:radial-gradient(circle at var(--byos-bg-circle-size) var(--byos-bg-circle-size), var(--byos-bg-circle-color) var(--byos-bg-circle-size), transparent 0), radial-gradient(circle at var(--byos-bg-circle-size) var(--byos-bg-circle-size), var(--byos-bg-circle-color) var(--byos-bg-circle-size), transparent 0);
+  background-size:var(--byos-bg-circle-spacing) var(--byos-bg-circle-spacing);
+  background-position:calc(var(--byos-bg-circle-spacing)/4) calc(var(--byos-bg-circle-spacing)/4), calc((var(--byos-bg-circle-spacing)/4)*3) calc((var(--byos-bg-circle-spacing)/4)*3);
+  font-family:var(--byos-font-family);
+  font-size:var(--byos-font-size);
 }
